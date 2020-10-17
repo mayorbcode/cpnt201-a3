@@ -1,6 +1,7 @@
 # CPNT-201 Assignment 3 - SVG Graphic  
 by Patrick Bello  
 ## Attributions  
+SVG created using [Figma](www.figma.com)  
 Tony Grimes' in-class tutorials. [Link to Repo](https://github.com/sait-wbdv/sample-code/tree/master/frontend/svg)  
 Michael Mardel (Helped with code structure and svg).  
 ## [Github repo](https://github.com/mayorbcode/cpnt201-a3)  
