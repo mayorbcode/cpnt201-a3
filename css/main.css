@@ -1,0 +1,111 @@
+/* Resets */
+
+html * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+/* Page Contents */
+
+/* Main wrapper */
+.main-wrapper {
+  /* Set content min-height, also helps centering in the main axis*/
+  min-height: 100vh;
+  
+  /* Make container, change direction, center items */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* Space items out a little */
+  gap: 1rem;
+  
+  /* Set background color */
+  background-color: #545C91;
+}
+
+
+/* svg wrapper */
+.full-svg {
+  /* set height and width of svg */
+  height: 60vh;
+  width: 60vh;
+
+  /* background-color: blue; */
+  padding: 2rem;
+}
+
+/* svg ears and neck */
+.ears-neck {
+  fill: #DECD97;
+}
+
+/* svg face */
+.face {
+  fill: #98A1DF;
+}
+
+/* svg eyes, nose, mouth + text */
+.features-text {
+  fill: pink;
+}
+
+/* Toggle Button with hover and active states*/
+.page-button {
+  /* increase padding */
+  padding: 1rem;
+  /* Increase font size */
+  font-size: 2rem;
+
+  background-color: black;
+  /* Visible border with rounded corners */
+  border: 1px solid grey;
+  border-radius: 12px;
+  color: whitesmoke;
+}
+
+.page-button:hover {
+  /* change cursor and background color on hover */
+  cursor: pointer;
+  background-color: #F0F0E0;
+  color: black;
+}
+
+.page-button:active {
+  /* Move down a little on click */
+  position: relative;
+  top: 5px;
+}
+
+
+
+/* Color changes (applied on button click via js)*/
+
+/* Page Bacground */
+.main-background {
+  background-color: beige;
+}
+
+/* svg face */
+.svg-face {
+  fill: #9ECEDB; 
+  /* Blur on button click */
+  filter: blur(2px);
+  
+}
+
+/* svg features and text */
+.svg-features-text {
+  fill: #0B408F;
+  /* Blur on button click */
+  filter: blur(1px);
+}
+
+/* svg ears and neck */
+.svg-ears-neck {
+  fill: #945B00;
+}
